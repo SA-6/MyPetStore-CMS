@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="../../static/css/account_css.css" />
+</head>
+<style>
+    body{
+        background: url("../../static/images/account_bg1.png") top left;
+        background-size: 100%;
+    }
+</style>
+<body>
+<div id="div-title">
+    <h3>欢迎注册</h3>
+</div>
+<div id="form-border">
+    <form method="post" action="register">
+        <div id="img-control">
+            <img src="../../static/images/account_bg2.jpg" id="register-img"/>
+        </div>
+        <label class="form-label" for="username">用户名&#12288;</label>
+        <input id="username" name="username" class="form-input" type="text" placeholder="账号" required="required"/><br>
+
+        <label class="form-label" for="password">密&#12288;&#12288;码</label>
+        <input id="password" name="password" class="form-input" type="password" placeholder="密码" required="required"/><br>
+
+        <label class="form-label" for="confirm_password">确认密码</label>
+        <input id="confirm_password" name="confirm_password" class="form-input" type="password" placeholder="确认密码" required="required"/><br>
+
+        <label id="register" class="form-label" for="password">已有账号？<a href="loginForm">点击登录</a></label><br>
+        <input id="login" class="form-button" type="submit" value="注册"/>
+    </form>
+</div>
+</body>
+</html>

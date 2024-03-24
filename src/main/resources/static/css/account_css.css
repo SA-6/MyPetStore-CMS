@@ -1,0 +1,69 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#login-img{
+    margin-left: 30px;
+    float: left;
+}
+
+#register-img{
+    float: right;
+    margin-right: 35px;
+}
+
+#img-control {
+    margin-top: 65px;
+}
+
+#form-border {
+    background-color: rgba(188, 176, 212, 0.6);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-input {
+    width: 200px;
+    height: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.form-label {
+    margin-left: 30px;
+}
+
+.form-button {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 18px;
+    font-family: "宋体";
+}
+
+#div-title {
+    text-align: center;
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "华文彩云";
+}
+
+#password {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#register {
+    margin-left: 70px;
+}

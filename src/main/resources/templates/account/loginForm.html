@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="../../static/css/account_css.css" />
+</head>
+<style>
+  body{
+    background: url('../../static/images/account_bg2.jpg') top left;
+    background-size: auto;
+  }
+
+</style>
+<body>
+<div id="div-title">
+  <h3>欢迎登陆</h3>
+</div>
+<div id="form-border">
+  <form method="post" action="login">
+    <div id="img-control">
+      <img src="../../static/images/account_bg1.png" id="login-img"/>
+    </div>
+    <label class="form-label" for="username">用户名</label>
+    <input id="username" name="username" class="form-input" type="text" placeholder="用户名" required="required"/><br>
+
+    <!-- &#12288，一个中文字符的空位 -->
+    <label class="form-label" for="password">密&#12288码</label>
+    <input id="password" name="password" class="form-input" type="password" placeholder="密码" required="required"/><br>
+
+    <label class="form-label" for="verifyCode">验证码</label>
+    <input type="text" class="form-control" id="verifyCode" name="userVerifyCode" placeholder="请输入验证码" required="true"><br>
+    <img alt="点击图片刷新！" src="/account/captcha" onclick="this.src='/account/captcha?d='+new Date()*1"><br>
+
+    <label id="register" class="form-label">没有账号？<a href="registerForm">点击注册</a></label><br>
+    <input id="login" class="form-button" type="submit" value="登录"/>
+  </form>
+</div>
+</body>
+</html>
